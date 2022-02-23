@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nationalize Api</title>
+    <style>
+    body{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: lightgray;
+    }
+     #container{
+        border-style: solid;
+        padding: 40px;
+    } 
+    #btn:hover{
+        color: lightcoral;
+    }
+    input{
+        width: 225px;
+        height: 30px;
+        border-style: solid;
+        border-radius: 10px;
+    }
+    button{
+        width: 243px;
+        height: 35px;
+        border-style: solid;
+        border-radius: 10px;  
+    }
+     input[type=text]{
+         padding-left: 11px;
+     }
+</style>
+</head>
+<body>
+    <div id="container">
+        <div>
+          <input type="text" id="name" placeholder="please enter name" /><br><br>
+          <button id="btn" onclick="inputData()"> GET </button>
+        </div>
+        <div>
+          <p id="result"></p>
+        </div>
+      </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
